@@ -2,7 +2,7 @@
 
 function doToElementsInArray(array,callback)
 {
-  array.forEach(callback(array));
+  array.forEach(callback);
   
 }
 function changeCompletely(element,index,array)
