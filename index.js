@@ -1,11 +1,14 @@
 // Add your doToElementsInArray() function here:
 
-function doToElementsInArray()
+function doToElementsInArray(array,callback)
 {
+  array.forEach(callback(array));
   
 }
-function changeCompletely()
+function changeCompletely(element,index,array)
 {
+  array[index]=Math.floor()
+  
   
 }
 
